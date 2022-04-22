@@ -1,0 +1,127 @@
+<circuit type="simulide_1.0" rev="1007" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="Hd44780" CircId="Hd44780-2" mainComp="false" Show_id="true" Show_Val="false" Pos="640,388" rotation="0" hflip="1" vflip="1" label="Hd44780-2" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2 _Lines" Cols="16 _Chars." />
+
+<item itemtype="MCU" CircId="mega328-5" mainComp="false" Show_id="true" Show_Val="false" Pos="872,488" rotation="0" hflip="1" vflip="1" label="mega328-5" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../../../Desktop/voltmeter/vt_meter/bin/Debug/vt_meter.hex" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="Capacitor" CircId="Capacitor-7" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="1056,540" rotation="0" hflip="1" vflip="1" label="Capacitor-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,7" valLabRot="0" Capacitance="100 nF" />
+
+<item itemtype="Capacitor" CircId="Capacitor-8" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="1056,616" rotation="0" hflip="1" vflip="1" label="Capacitor-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="100 nF" />
+
+<item itemtype="Capacitor" CircId="Capacitor-9" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="976,752" rotation="90" hflip="1" vflip="1" label="Capacitor-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="1000 µF" />
+
+<item itemtype="Capacitor" CircId="Capacitor-10" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="1052,748" rotation="90" hflip="1" vflip="1" label="Capacitor-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="100 nF" />
+
+<item itemtype="Capacitor" CircId="Capacitor-11" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="776,716" rotation="90" hflip="1" vflip="1" label="Capacitor-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="100 nF" />
+
+<item itemtype="Capacitor" CircId="Capacitor-12" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="776,776" rotation="90" hflip="1" vflip="1" label="Capacitor-12" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="100 nF" />
+
+<item itemtype="Resistor" CircId="Resistor-13" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="704,716" rotation="90" hflip="1" vflip="1" label="Resistor-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Resistor" CircId="Resistor-14" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="704,776" rotation="90" hflip="1" vflip="1" label="Resistor-14" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="2 kΩ" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-15" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="624,732" rotation="-90" hflip="1" vflip="1" label="Potentiometer-15" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="650 Ω" />
+
+<item itemtype="Battery" CircId="Battery-45" mainComp="false" Show_id="false" Show_Val="false" Pos="496,760" rotation="90" hflip="1" vflip="1" label="Battery-45" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="89.91 V" />
+
+<item itemtype="Ground" CircId="Ground-143" mainComp="false" Show_id="false" Show_Val="false" Pos="1096,660" rotation="0" hflip="1" vflip="1" label="Ground-143" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-157" mainComp="false" Show_id="false" Show_Val="false" Pos="1016,848" rotation="0" hflip="1" vflip="1" label="Ground-157" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-211" mainComp="false" Show_id="false" Show_Val="false" Pos="596,440" rotation="0" hflip="1" vflip="1" label="Ground-211" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-31" mainComp="false" Pos="708,792" />
+
+<item itemtype="Node" CircId="Node-34" mainComp="false" Pos="704,676" />
+
+<item itemtype="Node" CircId="Node-126" mainComp="false" Pos="776,748" />
+
+<item itemtype="Node" CircId="Node-129" mainComp="false" Pos="704,748" />
+
+<item itemtype="Node" CircId="Node-132" mainComp="false" Pos="776,752" />
+
+<item itemtype="Node" CircId="Node-144" mainComp="false" Pos="1096,616" />
+
+<item itemtype="Node" CircId="Node-155" mainComp="false" Pos="976,792" />
+
+<item itemtype="Node" CircId="Node-163" mainComp="false" Pos="608,792" />
+
+<item itemtype="Node" CircId="Node-201" mainComp="false" Pos="1012,792" />
+
+<item itemtype="Connector" uid="connector-85" startpinid="Node-70-1" endpinid="Node-70-0" pointList="948,436,948,436" />
+
+<item itemtype="Connector" uid="connector-212" startpinid="Resistor-13-lPin" endpinid="Node-34-0" pointList="704,700,704,676" />
+
+<item itemtype="Connector" uid="connector-213" startpinid="Resistor-14-rPin" endpinid="Node-31-0" pointList="704,792,708,792" />
+
+<item itemtype="Connector" uid="connector-214" startpinid="Capacitor-9-lPin" endpinid="Capacitor-10-lPin" pointList="976,736,976,732,1052,732" />
+
+<item itemtype="Connector" uid="connector-215" startpinid="Node-31-2" endpinid="Node-155-0" pointList="708,792,976,792" />
+
+<item itemtype="Connector" uid="connector-216" startpinid="Node-34-2" endpinid="Capacitor-11-lPin" pointList="704,676,776,676,776,700" />
+
+<item itemtype="Connector" uid="connector-217" startpinid="Node-34-1" endpinid="Potentiometer-15-PinM" pointList="704,676,652,676,652,732,640,732" />
+
+<item itemtype="Connector" uid="connector-218" startpinid="Battery-45-lPin" endpinid="Potentiometer-15-PinB" pointList="496,744,496,668,624,668,624,716" />
+
+<item itemtype="Connector" uid="connector-219" startpinid="Hd44780-2-PinEn" endpinid="mega328-5-PORTD5" pointList="672,396,672,576,864,576" />
+
+<item itemtype="Connector" uid="connector-220" startpinid="Hd44780-2-dataPin0" endpinid="mega328-5-PORTB0" pointList="680,396,680,600,864,600" />
+
+<item itemtype="Connector" uid="connector-221" startpinid="Hd44780-2-dataPin1" endpinid="mega328-5-PORTB1" pointList="688,396,688,652,948,652,948,600,912,600" />
+
+<item itemtype="Connector" uid="connector-222" startpinid="Hd44780-2-dataPin2" endpinid="mega328-5-PORTB2" pointList="696,396,696,660,956,660,956,592,912,592" />
+
+<item itemtype="Connector" uid="connector-223" startpinid="Hd44780-2-dataPin3" endpinid="mega328-5-PORTB3" pointList="704,396,704,484,956,484,956,584,912,584" />
+
+<item itemtype="Connector" uid="connector-224" startpinid="mega328-5-PORTB4" endpinid="Hd44780-2-dataPin4" pointList="912,576,964,576,964,476,712,476,712,396" />
+
+<item itemtype="Connector" uid="connector-225" startpinid="Hd44780-2-dataPin5" endpinid="mega328-5-PORTB5" pointList="720,396,720,468,972,468,972,568,912,568" />
+
+<item itemtype="Connector" uid="connector-226" startpinid="Hd44780-2-dataPin6" endpinid="mega328-5-PORTB6" pointList="728,396,728,560,864,560" />
+
+<item itemtype="Connector" uid="connector-227" startpinid="Hd44780-2-dataPin7" endpinid="mega328-5-PORTB7" pointList="736,396,736,568,864,568" />
+
+<item itemtype="Connector" uid="connector-228" startpinid="Resistor-14-lPin" endpinid="Node-129-0" pointList="704,760,704,748" />
+
+<item itemtype="Connector" uid="connector-229" startpinid="Capacitor-12-lPin" endpinid="Node-132-0" pointList="776,760,776,752" />
+
+<item itemtype="Connector" uid="connector-230" startpinid="Node-126-2" endpinid="Capacitor-11-rPin" pointList="776,748,776,732" />
+
+<item itemtype="Connector" uid="connector-231" startpinid="Node-126-1" endpinid="mega328-5-PORTC0" pointList="776,748,852,748,852,700,980,700,980,536,912,536" />
+
+<item itemtype="Connector" uid="connector-232" startpinid="Node-129-1" endpinid="Node-132-1" pointList="704,748,776,748,776,752" />
+
+<item itemtype="Connector" uid="connector-233" startpinid="Node-132-2" endpinid="Node-126-0" pointList="776,752,776,748" />
+
+<item itemtype="Connector" uid="connector-234" startpinid="Node-129-2" endpinid="Resistor-13-rPin" pointList="704,748,704,732" />
+
+<item itemtype="Connector" uid="connector-235" startpinid="mega328-5-PORTV1" endpinid="Capacitor-7-lPin" pointList="912,552,1004,552,1004,540,1040,540" />
+
+<item itemtype="Connector" uid="connector-236" startpinid="Capacitor-7-rPin" endpinid="Node-144-0" pointList="1072,540,1096,540,1096,616" />
+
+<item itemtype="Connector" uid="connector-237" startpinid="Node-144-2" endpinid="Capacitor-8-rPin" pointList="1096,616,1072,616" />
+
+<item itemtype="Connector" uid="connector-238" startpinid="Node-144-1" endpinid="Ground-143-Gnd" pointList="1096,616,1096,644" />
+
+<item itemtype="Connector" uid="connector-239" startpinid="mega328-5-PORTV0" endpinid="Capacitor-8-lPin" pointList="912,560,1004,560,1004,616,1040,616" />
+
+<item itemtype="Connector" uid="connector-240" startpinid="Capacitor-9-rPin" endpinid="Node-155-1" pointList="976,768,976,792" />
+
+<item itemtype="Connector" uid="connector-241" startpinid="Node-31-1" endpinid="Node-163-0" pointList="708,792,608,792" />
+
+<item itemtype="Connector" uid="connector-242" startpinid="Battery-45-rPin" endpinid="Node-163-1" pointList="496,776,496,792,608,792" />
+
+<item itemtype="Connector" uid="connector-243" startpinid="Node-163-2" endpinid="Potentiometer-15-PinA" pointList="608,792,608,748,624,748" />
+
+<item itemtype="Connector" uid="connector-244" startpinid="Node-155-2" endpinid="Node-201-0" pointList="976,792,1012,792" />
+
+<item itemtype="Connector" uid="connector-245" startpinid="Ground-157-Gnd" endpinid="Node-201-1" pointList="1016,832,1016,792,1012,792" />
+
+<item itemtype="Connector" uid="connector-246" startpinid="Node-201-2" endpinid="Capacitor-10-rPin" pointList="1012,792,1052,792,1052,764" />
+
+<item itemtype="Connector" uid="connector-247" startpinid="Hd44780-2-PinRS" endpinid="mega328-5-PORTD6" pointList="656,396,656,584,864,584" />
+
+<item itemtype="Connector" uid="connector-248" startpinid="Hd44780-2-PinRW" endpinid="Ground-211-Gnd" pointList="664,396,664,424,596,424" />
+
+</circuit>
