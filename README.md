@@ -8,3 +8,7 @@
 
 * Linux Build
 [![Build_on_Linux](https://github.com/SHIVApradee/M2_Digital_Voltmeter/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/SHIVApradee/M2_Digital_Voltmeter/actions/workflows/c-cpp.yml)
+
+* Codiga code quality score ![Quality](https://api.codiga.io/project/33115/score/svg)
+* Codiga code grade ![Quality](https://api.codiga.io/project/33115/status/svg)
+
